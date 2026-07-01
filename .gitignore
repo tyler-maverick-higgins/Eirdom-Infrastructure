@@ -1,0 +1,120 @@
+# ========================================
+# Operating System
+# ========================================
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ========================================
+# Editors / IDEs
+# ========================================
+
+.vscode/
+.idea/
+*.code-workspace
+
+# ========================================
+# Temporary Files
+# ========================================
+
+*.tmp
+*.temp
+*.bak
+*.old
+*.swp
+*.swo
+*~
+
+# ========================================
+# Logs
+# ========================================
+
+*.log
+logs/
+
+# ========================================
+# Environment / Secrets
+# ========================================
+
+.env
+.env.*
+!.env.example
+
+*.key
+*.pem
+*.crt
+*.csr
+*.pfx
+*.p12
+
+secrets/
+certificates/private/
+
+# ========================================
+# Infrastructure State
+# ========================================
+
+terraform.tfstate
+terraform.tfstate.*
+.terraform/
+
+# ========================================
+# Backups
+# ========================================
+
+backup/
+backups/
+archive/
+
+# ========================================
+# Virtual Machines
+# ========================================
+
+*.vmdk
+*.vhd
+*.vhdx
+*.ova
+*.ovf
+*.qcow2
+*.img
+*.iso
+
+# ========================================
+# Database Dumps
+# ========================================
+
+*.sql
+*.dump
+*.bak
+
+# ========================================
+# Docker Runtime Data
+# ========================================
+
+docker-data/
+volumes/
+
+# ========================================
+# Generated Documentation
+# ========================================
+
+_site/
+dist/
+build/
+
+# ========================================
+# Obsidian
+# ========================================
+
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+.obsidian/plugins/
+
+# Keep the rest of the vault configuration
+!.obsidian/app.json
+!.obsidian/appearance.json
+!.obsidian/core-plugins.json
+!.obsidian/community-plugins.json
+!.obsidian/hotkeys.json
