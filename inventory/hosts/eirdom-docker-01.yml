@@ -1,0 +1,8 @@
+hostname: eirdom-docker-01
+os: Ubuntu 26.04 LTS
+address: 10.1.50.10
+roles:
+  - docker-host
+ai_workloads: false
+notes:
+  - Monitor CPU thermals before additional deployments.
